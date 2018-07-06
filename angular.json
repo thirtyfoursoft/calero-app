@@ -24,14 +24,12 @@
             ],
             "styles": [
 			  "node_modules/bootstrap/dist/css/bootstrap.min.css",
-			  "node_modules/offside-js/dist/offside.css",
               "src/styles.css"
             ],
             "scripts": [
 			"node_modules/jquery/dist/jquery.js",
 			"node_modules/bootstrap/dist/js/bootstrap.min.js",
-			"node_modules/offside-js/dist/offside.min.js",
-			"src/custom.js"
+			"node_modules/bootstrap/js/dist/dropdown.js"
 			]
           },
           "configurations": {

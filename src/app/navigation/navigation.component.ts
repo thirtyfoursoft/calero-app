@@ -10,6 +10,11 @@ export class NavigationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  const $ = window["$"];
+  $('#btn-toggle').click(function(){
+    $('#container-toggle').toggleClass('block-toggle')
+    $('#menu-toggle').toggleClass('block-toggle')
+  });
   }
 
 }
