@@ -48,7 +48,8 @@ transition: all 500ms ease-in-out;}
 transition: all 500ms ease-in-out;}
 
 /* SUB NAV */
-.sub-top-nav{ padding:26px 0 0 15px;}
+#container-toggle{ padding:26px 40px 26px 30px;}
+.sub-top-nav{ margin-bottom:40px;}
 .sub-top-nav:after{ font-size:0px; line-height:0px; height:0px; content:'.'; visibility:hidden; display:block; clear:both;}
 .menu-trigger{ float:left; padding-top:8px;}
 #btn-toggle{ color:#211f49; font-size:24px;}
@@ -56,8 +57,13 @@ transition: all 500ms ease-in-out;}
 .sub-top-nav .nav .nav-item{ display:inline-block; position:relative;}
 .sub-top-nav .nav .profile-menu{ padding-left:22px;}
 .sub-top-nav .nav a{ color:#a6a7a9; font-size:18px;}
+.sub-top-nav .nav .nav-item:last-child a{ padding-right:0;}
 .sub-top-nav .nav .sub-menu{ background:#e8e7ff; display:none; list-style:none; margin:0; padding:0; position:absolute; right:0; top:100%; width:200px; z-index:999;}
 .sub-top-nav .nav .nav-item:hover .sub-menu,  .sub-top-nav .nav .sub-menu .nav-item{ display:block;}
 { display:block;}
 .sub-top-nav .nav .sub-menu .nav-item a{ padding:10px 15px;}
 .profile-menu img{ border-radius:50%; margin-right:10px;}
+
+/* BREADCRUMB */
+.breadcrumb-nav span{ color:#c3c3c3; display:inline-block; font-size:15px; font-weight:700; vertical-align:middle;}
+.breadcrumb-nav i{ color:#c3c3c3; display:inline-block; font-size:20px; padding:0 8px 0 11px; vertical-align:middle;}
