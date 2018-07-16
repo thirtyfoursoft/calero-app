@@ -6,6 +6,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SubnavComponent } from './subnav/subnav.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { InternalComponent } from './internal/internal.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InternalComponent } from './internal/internal.component';
     InternalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
