@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./internal.component.css']
 })
 export class InternalComponent implements OnInit {
-
+	page_title ="Internal team";
   constructor() { }
 
   ngOnInit() {
